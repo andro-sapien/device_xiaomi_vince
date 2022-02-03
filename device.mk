@@ -15,6 +15,7 @@
 #
 
 $(call inherit-product, vendor/xiaomi/vince/vince-vendor.mk)
+$(call inherit-product, vendor/xiaomi/dirac/dirac.mk)
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 25
