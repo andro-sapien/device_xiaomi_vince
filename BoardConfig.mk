@@ -59,7 +59,8 @@ TARGET_KERNEL_VERSION := 4.9
 
 # Clang
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := proton
+TARGET_KERNEL_CLANG_VERSION := clang-14
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-14
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
