@@ -61,8 +61,8 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
 
 # Clang
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := clang-14
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-14
+TARGET_KERNEL_CLANG_VERSION := clang-cosmic
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-cosmic
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
