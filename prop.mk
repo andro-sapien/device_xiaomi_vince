@@ -102,6 +102,7 @@ ro.bluetooth.hfp.ver=1.7
 
 # Blur
 PRODUCT_PRODUCT_PROPERTIES += \
+ro.launcher.blur.appLaunch=0 \
 persist.sys.sf.disable_blurs=1
 
 # Boot
