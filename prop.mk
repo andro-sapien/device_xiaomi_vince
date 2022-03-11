@@ -130,7 +130,8 @@ persist.vendor.camera.video.CDS=off
 
 # Cne
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.vendor.cne.feature=1
+persist.vendor.cne.feature=1 \
+persist.vendor.sys.cnd.iwlan=1
 
 # Coresight
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -262,6 +263,7 @@ ro.vendor.qti.va_odm.support=1
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.radio.multisim.config=dsds \
+persist.vendor.data.iwlan.enable=true \
 persist.vendor.radio.add_power_save=1 \
 persist.vendor.radio.apm_sim_not_pwdn=1 \
 persist.vendor.radio.custom_ecc=1 \
@@ -321,7 +323,7 @@ rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 ril.subscription.types=NV,RUIM \
 ro.telephony.call_ring.multiple=false \
 ro.telephony.default_network=22,22 \
-ro.telephony.use_old_mnc_mcc_format=true \
+telephony.lteOnCdmaDevice=1
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
