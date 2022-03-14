@@ -138,6 +138,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libldacBT_dec \
     libbt-vendor \
+    android.hardware.bluetooth.a2dp@1.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0 \
     vendor.qti.hardware.btconfigstore@2.0 \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
