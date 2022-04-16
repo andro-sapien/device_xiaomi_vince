@@ -31,6 +31,7 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
